@@ -50,7 +50,15 @@ The database connection string is located in the `MainClass.cs` file. By default
 ```
 con_string = "Data Source = DESKTOP-1RQH46C\\SQLEXPRESS; Initial Catalog = TFC; Integrated Security=True";
 ```
-
+### Email sending mechanism:
+The email configuration file are located in model folder with name `email.cs` where you need to change these two things
+```
+public void Email(string toEmail)
+        {
+            string fromMail = "example@gmail.com";
+            string fromPass = "secret-key";
+...
+```
 #### Steps to Update the Connection String:
 1. Open the `MainClass.cs` file.
 2. Replace the default connection string with your own:
