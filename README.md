@@ -1,5 +1,7 @@
 # 🍽 Restaurant Management System - Desktop Application
 
+DBMS | Project | SQL
+
 Welcome to the **Restaurant Management System**! 🎉 This project is a complete desktop application developed using **C# .NET Framework** in **Microsoft Visual Studio Community**. It’s designed to simplify restaurant operations by integrating various management features, including user management, order processing, kitchen tracking, reporting, and more! 🚀
 
 ## Introductury Video
